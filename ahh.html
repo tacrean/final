@@ -244,7 +244,7 @@ body{
   <div class="w3-container w3-padding-32" id="contact">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
     <p>We want to hear from you! How can we improve our website and resources to fit your needs? Whether you have any critique or not, please reach out to us!</p>
-    <form action="/action_page.php" target="_blank">
+      <!--<form action="/action_page.php" target="_blank">
       <input class="w3-input" type="text" placeholder="Name" required name="Name">
       <input class="w3-input w3-section" type="text" placeholder="Email" required name="Email">
       <input class="w3-input w3-section" type="text" placeholder="Subject" required name="Subject">
@@ -252,7 +252,12 @@ body{
       <button class="w3-button w3-black w3-section" type="submit">
         <i class="fa fa-paper-plane"></i> SEND MESSAGE
       </button>
-    </form>
+    </form>-->
+    <form method="POST" action="http://formspree.io/mollyrosebrigham@gmail.com">
+  <input type="email" name="email" placeholder="Your email">
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
+</form>
   </div>
 
 <!-- End page content -->
