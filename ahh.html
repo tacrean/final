@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  
+
 <head>
   <meta name="referrer" content="origin">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,6 +23,11 @@ body{
   background-color:	#E6E6FA;
   <font color='#696969'></font>
 }
+  p.three {
+    border-style: solid;
+    border-color: #008080;
+    border-width: 15px;
+  }
   p.four {
     border-style: solid;
     border-color: #FFB6C1 #add8e6 #FFFFFF;
@@ -31,14 +36,11 @@ body{
   * {box-sizing:border-box}
 body {font-family: Verdana,sans-serif;margin:0}
 .mySlides {display:none}
-
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
-
-
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -52,18 +54,13 @@ body {font-family: Verdana,sans-serif;margin:0}
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
 }
-
-
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
-
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
-
 .text {
   color: #000000;
   font-size: 15px;
@@ -73,8 +70,6 @@ body {font-family: Verdana,sans-serif;margin:0}
   width: 100%;
   text-align: center;
 }
-
-
 .numbertext {
   color: #000000;
   font-size: 12px;
@@ -82,8 +77,6 @@ body {font-family: Verdana,sans-serif;margin:0}
   position: absolute;
   top: 0;
 }
-
-
 .dot {
   cursor:pointer;
   height: 13px;
@@ -94,30 +87,23 @@ body {font-family: Verdana,sans-serif;margin:0}
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
 .active, .dot:hover {
   background-color: #717171;
 }
-
-
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
-
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
-
-
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
@@ -151,7 +137,7 @@ body {font-family: Verdana,sans-serif;margin:0}
 <!-- Page content -->
 <div class="w3-content w3-padding" style="max-width:1564px">
   <!-- Salary Section -->
-  
+
 <div class="w3-container w3-padding-32" id="salary">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Salary</h3>
   <p> Calculate what salary you should be asking for </p>
@@ -164,7 +150,7 @@ body {font-family: Verdana,sans-serif;margin:0}
   <!-- Resources Section -->
   <div class="w3-container w3-padding-32" id="resources">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Resources</h3>
-    
+
     <div class="w3-col l3 m6 w3-margin-bottom">
         <div class="w3-display-topleft w3-black w3-padding">Feminism</div>
          <a href="#feminism"class="w3-button w3-wide w3-light-grey w3-block w3-hover-pale-red" >Feminism</a>
@@ -183,7 +169,7 @@ body {font-family: Verdana,sans-serif;margin:0}
          <a href="#extra" class="w3-button w3-wide w3-light-grey w3-block w3-hover-pale-red">Extra</a>
     </div>
   </div>
- 
+
   <div class="w3-container w3-padding-32" id="feminism"><h5><b>Feminism</b></h5>
   <font size="-.5"><p><a href="https://www.ted.com/topics/feminism">Ted Talks on Feminism</a></p>
   <p><a href="http://feminist.com/">Feminist</a></p>
@@ -298,17 +284,17 @@ body {font-family: Verdana,sans-serif;margin:0}
   <p> Please stay safe! If your partner responds negatively if you decline their sexual advancements, or if they ignore your signs of discontent, then <b>they do not respect your consent</b>. We recommend discussing your boundaries and if they continue to disrespect you, remove yourself from the situation and cut ties with this person. <b>Your safety is more important</b> than their necessity to own your body. </p>
       </font>
       </div>
-    <div class="w3-container w3-padding-32" id="campus_assault"><h5>The lack of security and awareness surrounding <b>sexual assault on college campuses</b> only feeds into this toxic rape culture.</h5>
-     <font size="-.5"> <p>The United States Department of Justice reports that frighteningly,<b> 1 in 4 female undergraduates </b> will be victim to some form of <b>sexual assault</b> before she receives her diploma. While receiving education and learning how to empower and make a life for herself, 25% of women are forced into the submissive roles that plagued women centuries ago in this <b> apparently progressive nation and era </b>. Due to the egregious amount of non-consensual sex in college campuses, an increase in awareness and urgency is necessary to both help and limit the number of victims, as well as ensure that the offenders are served with <b>appropriate jail time</b>.
-</p>
-      <p> RAINN highlights that while a quarter of women are sexually assaulted in college, <b>70% of these crimes remain unreported</b> and of the mere 30% that are reported to the authorities, only 25% of these result in arrest. What is even more chilling is that many of those punished for this heinous crime receive minimal jail time, such as Brock Turner, the unapologetic Stanford rapist who spent three months in jail due to not only the judge’s concern for the criminal’s swim career, but society’s overall acceptance of sexual assault and rapists and the common practice of <b>victim-shaming</b>.  </p>
-      <p> A history of <b>incompetency and neglect</b> on the part of the authorities creates a culture of<b> distrust of the judicial system</b>, which largely contributes to the number of unreported sexual assaults.
+    <div class="w3-container w3-padding-32" id="campus_assault"><p class="three"><font size="+.5"><br>The lack of security and awareness surrounding <b>sexual assault on college campuses</b> only feeds into this toxic rape culture.</font><br><br>
+      The United States Department of Justice reports that frighteningly,<b> 1 in 4 female undergraduates </b> will be victim to some form of <b>sexual assault</b> before she receives her diploma. While receiving education and learning how to empower and make a life for herself, 25% of women are forced into the submissive roles that plagued women centuries ago in this <b> apparently progressive nation and era </b>. Due to the egregious amount of non-consensual sex in college campuses, an increase in awareness and urgency is necessary to both help and limit the number of victims, as well as ensure that the offenders are served with <b>appropriate jail time</b>.
+<br><br>
+       RAINN highlights that while a quarter of women are sexually assaulted in college, <b>70% of these crimes remain unreported</b> and of the mere 30% that are reported to the authorities, only 25% of these result in arrest. What is even more chilling is that many of those punished for this heinous crime receive minimal jail time, such as Brock Turner, the unapologetic Stanford rapist who spent three months in jail due to not only the judge’s concern for the criminal’s swim career, but society’s overall acceptance of sexual assault and rapists and the common practice of <b>victim-shaming</b>.
+      <br> <br>A history of <b>incompetency and neglect</b> on the part of the authorities creates a culture of<b> distrust of the judicial system</b>, which largely contributes to the number of unreported sexual assaults.
       In addition, many people, both men and women alike, claim that if a woman were to <b> dress promiscuously</b> or put herself in a vulnerable position (i.e. get drunk), then she deserves the assault. The truth of the matter is that <b>a woman’s body is entitled to no one but herself</b>, and those that practice this victim-blaming promote the notion that women must exercise extreme precautions and <b>limit their personal liberties</b> to prevent men from taking advantage of them.
-      </p>
+      <br><br></p>
       </font>
       </div>
     <div class="w3-container w3-padding-32" id="wage_gap"><h5>Is the <b>Wage Gap</b> real?</h5>
-      <p>While widely repudiated and deemed nonexistent by self-proclaiming “meninists” and “anti-feminists”, the wage gap continues to antagonize working women across the nation, ensuring that no matter their worth ethic and perseverance, they will still make <b>78 cents to the man’s dollar</b>. While several statistics <b> prove the existence of the wage gap</b>, ignorance continues to depreciate these hard facts. Many more conservative outlets claim that men and women make <b> different choices</b< that lead to the salary disparities; according to these sources, men generally choose more dangerous and more high-paying jobs that require<b> more commitment</b>, and that even within the same field,<b> men work harder </b>and choose more rigorous job specifications, and thus deserve a higher salary. While many people hold these “facts” to be indubitable, many reliable news sources highlight several disconcerting statistics that in short, display that even while <b>female college education outweighs that of males</b>, and though men and women hold <b>similar jobs</b>, men are paid more. Here are more specific statistics: 
+      <p>While widely repudiated and deemed nonexistent by self-proclaiming “meninists” and “anti-feminists”, the wage gap continues to antagonize working women across the nation, ensuring that no matter their worth ethic and perseverance, they will still make <b>78 cents to the man’s dollar</b>. While several statistics <b> prove the existence of the wage gap</b>, ignorance continues to depreciate these hard facts. Many more conservative outlets claim that men and women make <b> different choices</b< that lead to the salary disparities; according to these sources, men generally choose more dangerous and more high-paying jobs that require<b> more commitment</b>, and that even within the same field,<b> men work harder </b>and choose more rigorous job specifications, and thus deserve a higher salary. While many people hold these “facts” to be indubitable, many reliable news sources highlight several disconcerting statistics that in short, display that even while <b>female college education outweighs that of males</b>, and though men and women hold <b>similar jobs</b>, men are paid more. Here are more specific statistics:
  </p>
       </font>
    <!-- <img src="wagegap.png" alt="Lifetime Wage Gap for Women Compared with Men" style="width:364.8px;height:273.6px;">
@@ -345,37 +331,34 @@ body {font-family: Verdana,sans-serif;margin:0}
 <br>
 
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
 </div>
 
 <script>
 var slideIndex = 1;
 showSlides(slideIndex);
-
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
+  if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+      slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
 </script>
@@ -387,13 +370,13 @@ function showSlides(n) {
 </div>
     <div class="w3-container w3-padding-32" id="trans_women"><p class="four"><font size="+.5"><br>The struggles and inequalities that many <b>trans women</b> face</font><br>
       <i>It is revolutionary for any trans person to choose to be seen and visible in a world that tells us we should not exist</i>  --Laverne Cox<br>
-        
-      While women already face several hardships due to societal biases against them, the <b>struggle for equality, safety, and basic human rights</b> is more treacherous for transgender women, or women who were assigned with the wrong gender at birth. The estimated <b>1.4 million</b> trans people in the U.S. are consistently ridiculed and bullied for their identity, and even those who claim to support the trans community have several biases and lack cognizance of the realities that trans people face. 
+
+      While women already face several hardships due to societal biases against them, the <b>struggle for equality, safety, and basic human rights</b> is more treacherous for transgender women, or women who were assigned with the wrong gender at birth. The estimated <b>1.4 million</b> trans people in the U.S. are consistently ridiculed and bullied for their identity, and even those who claim to support the trans community have several biases and lack cognizance of the realities that trans people face.
           Specifically, <b>trans women</b> account for <b>72 percent of anti-LGBTQ homicide victims</b>. <br><br>Many feminists discount the struggles of trans women and <b>separate them from cisgender women</b> due to their “life of male privilege prior to transition”. However, while they did not receive the same sexist treatment as cis women until their transition, they <b>lack the privilege of universal acceptance</b> and respect of their gender. While trans women may not experience menstruation or the pain of childbirth, the<b> sexual harassment and violence</b> that cis women experience often only heightens for trans women.
 <br><br> <img src="tstats.png" alt="Invisible, Not Imaginary: Transgender STD Statistics" width="277.9" height="279.3"><br>
       <br><font size="-1"><a href="https://www.washingtonpost.com/news/morning-mix/wp/2017/03/13/womens-issues-are-different-from-trans-womens-issues-feminist-author-says-sparking-criticism/?utm_term=.c71b17a49bf0/">Source</a>
       <br><a href="https://www.stdcheck.com/blog/transgender-std-statistics/">Image Source</a></p></font><br>
-     
+
       </font>
 
       </div>
